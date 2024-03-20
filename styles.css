@@ -13,14 +13,15 @@
 
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto;
+    margin: 1% auto; /* Réduire la marge pour augmenter la taille de la fenêtre modale */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
-    height: 80%;
+    width: 98%; /* Augmenter la largeur de la fenêtre modale */
+    height: 98%; /* Augmenter la hauteur de la fenêtre modale */
     overflow-y: auto;
     font-size: 48px; /* Taille de police très grosse */
 }
+
 
 .close {
     color: #aaa;
